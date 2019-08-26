@@ -9,8 +9,8 @@ class MyAction(Action):
         if a<=1 :
             print("Enter a number greater than 1")
         else :
-            print("Fibonacci sequence upto",nterms,":")
-            while count < nterms:
+            print("Fibonacci sequence upto",a,":")
+            while count < a:
                 print(n1,end=' , ')
                 nth = n1 + n2
                 # update values
