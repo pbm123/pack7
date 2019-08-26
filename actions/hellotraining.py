@@ -11,7 +11,7 @@ class MyAction(Action):
         else :
             print("Fibonacci sequence upto",a,":")
             while count < a:
-                print(n1,end=' , ')
+                print(n1)
                 nth = n1 + n2
                 # update values
                 n1 = n2
