@@ -12,9 +12,9 @@ class MyAction(Action):
             print("Fibonacci sequence upto",a,":")
             while self.count < a:
                 print(self.n1)
-                self.nth = n1 + n2
+                self.nth = self.n1 + self.n2
                 # update values
-                self.n1 = n2
+                self.n1 = self.n2
                 self.n2 = nth
                 self.count += 1
         return(True)
