@@ -6,17 +6,17 @@ description: hello python
 enabled: true
 entry_point : hellotraining.py
 parameters: 
-  message1:
+  a:
     type: integer 
     description: number 1
     required: true
     position: 1
-  message2:
+  b:
     type: integer 
     description: number 2
     required: true
     position: 2
-  message3:
+  c:
     type: integer 
     description: number 3
     required: true
