@@ -11,13 +11,3 @@ parameters:
     description: number 1
     required: true
     position: 1
-  b:
-    type: integer 
-    description: number 2
-    required: true
-    position: 2
-  c:
-    type: integer 
-    description: number 3
-    required: true
-    position: 3
