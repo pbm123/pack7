@@ -7,17 +7,17 @@ enabled: true
 entry_point : hellotraining.py
 parameters: 
   message1:
-    type: int 
+    type: integer 
     description: number 1
     required: true
     position: 1
   message2:
-    type: int 
+    type: integer 
     description: number 2
     required: true
     position: 2
   message3:
-    type: int 
+    type: integer 
     description: number 3
     required: true
     position: 3
